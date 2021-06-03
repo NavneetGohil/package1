@@ -10,7 +10,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+         "php": ">=7.3.0",
+        "twig/twig": "^2.0"
+    },
 
     "autoload": {
         "classmap": [
