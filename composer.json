@@ -1,24 +1,27 @@
 {
-    "name": "vendorr/checkout",
-      "type": "composer-plugin",
-    "description": "PayKun Checkout library which can be used to initiate payment",
-    "require": {
-        "php": ">=5.3.0",
-        "twig/twig": "^2.0"
-    },
+    "name": "vendor/navneet",
+    "description": "my name is navneet",
+  "version": "2.0.5",
+    "type": "composer-plugin",
     "license": "MIT",
     "authors": [
         {
-            "name": "PayKun Payment Solutions Private Limited",
-            "email": "support@paykun.com",
-            "homepage": "https://paykun.com"
+            "name": "navneet",
+            "email": "gohilnavaneet643@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
-    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {},
+
     "autoload": {
+        "classmap": [
+            "database"
+        ],
         "psr-4": {
-            "Paykun\\Checkout\\": "src/"
+            "App\\": "app/",
+            "Devdojo\\Calculator\\": "packages/devdojo/calculator/src"
         }
     }
 }
+
+
