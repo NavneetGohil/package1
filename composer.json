@@ -1,5 +1,6 @@
 {
    "name": "vendor/navneet",
+      "version": "2.0.5",
     "description": "my name is navneet",
       "type": "composer-plugin",
     "require": {
