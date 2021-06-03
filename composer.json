@@ -1,5 +1,5 @@
 {
-    "name": "vendor/navneet",
+    "name": "test/navneet",
     "description": "my name is navneet",
     "type": "composer-plugin",
     "license": "MIT",
