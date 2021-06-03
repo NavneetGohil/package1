@@ -19,7 +19,8 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Paykun\\Checkout\\": "src/"
+         "App\\": "app/",
+            "Devdojo\\Calculator\\": "packages/devdojo/calculator/src"
         }
     }
 }
