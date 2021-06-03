@@ -1,0 +1,26 @@
+{
+    "name": "vendor/navneet",
+    "description": "my name is navneet",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "navneet",
+            "email": "gohilnavaneet643@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Devdojo\\Calculator\\": "packages/devdojo/calculator/src"
+        }
+    }
+}
+
+
