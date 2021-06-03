@@ -1,6 +1,7 @@
 {
     "name": "vendor/navneet",
     "description": "my name is navneet",
+        "version": "2.0.5",
     "type": "package",
     "license": "MIT",
     "authors": [
